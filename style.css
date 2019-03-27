@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #2d3945;
+}
+
+header {
+  background-color: #2d3945;
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+h2 {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+p {
+  color: #8e9091;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+hr.hr1 {
+	border-bottom: 5px double #2d3945;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label {
+  color: #424e5a;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eff0f1;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+select {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eff0f1;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+select *.choose {
+  font-family: Merriweather;
+}
+
+.zip {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #eff0f1;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+hr.hr2 {
+  border-top: 2px solid #2d3945;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.newsletter-intro {
+  margin-bottom: 0px;
+}
+
+input.check {
+  display: inline;
+
+}
+
+.check-options {
+  display:inline;
+  font-size: 15px;
+  color: #4e535e;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+  background-color: #eff0f1;
+  border: none;
+  resize: none;
+}
+
+p.copyright {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #4ebbb5;
+  color: white;
+  border: none;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Media Qeries --------------- */
+
+@media (min-width: 768px) {
+
+  form {
+    max-width: 768px;
+  }
+
+}
